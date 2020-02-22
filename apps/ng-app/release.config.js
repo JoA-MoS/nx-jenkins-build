@@ -28,7 +28,7 @@ module.exports = {
     [
       ('@semantic-release/github',
       {
-        assets: [{ path: `dist/apps/${appName}`, label: 'Built App' }],
+        assets: `dist/apps/${appName}`,
         successComment:
           ':tada: This issue has been resolved in version ' +
           appName +
